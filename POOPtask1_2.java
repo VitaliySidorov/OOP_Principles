@@ -17,6 +17,9 @@ public class POOPtask1_2 {
         Rectangle r2 = new Rectangle(15, 50);
         System.out.println(r2);
         
+        Rectangle r3 = new Rectangle(20, 15);
+        System.out.println(r3);
+
     }
     
 }
