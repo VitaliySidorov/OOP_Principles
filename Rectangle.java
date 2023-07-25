@@ -1,5 +1,5 @@
 public class Rectangle {
-    private static int count = 1;
+    private static int count = 0;
     private int id;
     private double width;
     private double height;
@@ -11,8 +11,7 @@ public class Rectangle {
     }
 
     Rectangle() {
-        width = 10.0;
-        height = 26.0;
+        this(10.0, 26.0);
     }
 
     public int getId() {
